@@ -8,19 +8,45 @@ body{
     background-image: linear-gradient(to right, rgba(216, 177, 48, 0), rgb(64, 129, 250));
 }
 img{
-    border-radius: 3%;
-    border-color: rgb(247, 35, 229);
-    border-style:groove;
+    width:550px;
+    height: 450px;
+    vertical-align: top;
+    height: 500px;
+    padding-top: 50px;
+    padding-left: 600px;
 }
-
+.marco{
+    width: 1675px;
+    height: 900px;
+    padding-left: 0px;
+}
 h2{
-    color: rgb(245, 86, 232);
+    color: rgb(247, 35, 229);
+    text-align: center;
 }
 h1{
-color:rgb(50, 5, 71);
+color:rgb(247, 35, 229);
 font-family: "Comic Sans MS", cursive, sans-serif;
+
 
 }
 P{
     font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
 }  
+a{
+    color:rgb(250, 246, 250);
+    
+   
+}
+ul{
+    float: right;
+    width:8%;
+    border-radius: 2%;
+    list-style-type: none;
+    border-color:rgb(247, 35, 229);
+    border-style:solid;
+    text-align: center;
+}
+
+
