@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+  
+}
+body{
+    background-image: linear-gradient(to right, rgba(216, 177, 48, 0), rgb(64, 129, 250));
+}
+img{
+    border-radius: 3%;
+    border-color: rgb(247, 35, 229);
+    border-style:groove;
+}
+
+h2{
+    color: rgb(245, 86, 232);
+}
+h1{
+color:rgb(50, 5, 71);
+font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+P{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}  
