@@ -1,52 +1,76 @@
 *{
-    margin: 0;
+    margin: 2;
     padding: 0;
-    font-size: 35px;
-  
+    box-sizing: 0;
+    list-style: none; 
+    color: aliceblue;
 }
-body{
-    background-image: linear-gradient(to right, rgba(216, 177, 48, 0), rgb(64, 129, 250));
-}
-img{
-    width:550px;
-    height: 450px;
-    vertical-align: top;
-    height: 500px;
-    padding-top: 50px;
-    padding-left: 600px;
-}
-.marco{
-    width: 1675px;
-    height: 900px;
-    padding-left: 0px;
-}
-h2{
-    color: rgb(247, 35, 229);
-    text-align: center;
-}
-h1{
-color:rgb(247, 35, 229);
-font-family: "Comic Sans MS", cursive, sans-serif;
-
-
-}
-P{
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    text-align: center;
-}  
-a{
-    color:rgb(250, 246, 250);
-    
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 1em;  
+    align-items:center;  
+    border-bottom: solid 0.1em; 
+    border-color: #8a2be2;
+    line-height: 55px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type: none;
    
 }
-ul{
-    float: right;
-    width:8%;
+body{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(46, 46, 109) 35%, rgb(2, 125, 150) 100%);
+}
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    color: #e5f31c;
+    font: bold;
+    
+}
+.descricao{
+    text-align: justify;
+    text-decoration:dashed;
+}
+.descricaoh1{
+    text-align: center;
+    text-decoration:dashed;
+    color: #e5f31c;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(46, 46, 109) 35%, rgb(2, 125, 150) 100%);
+    filter: drop-shadow(5px 5px 5px #8a2be2);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.descricaoh2{
+    text-align: justify;
+    text-decoration:dashed;
+    color: #e5f31c;
+    
+}
+.descricaoh3{
+    text-align: justify;
+    text-decoration:dashed;
+    color: rgb(229, 243, 28);
+}
+.descricaospan{
+    text-align: justify;
+    text-decoration:dashed;
+    color: rgb(229, 224, 241);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.imagens{
+    display: flex;
+    justify-content: center;
+    width: 35rem;
+    height: 30rem;
+    margin-left: 25rem;
     border-radius: 2%;
-    list-style-type: none;
-    border-color:rgb(247, 35, 229);
-    border-style:solid;
+    max-width: 100%;
+}
+.marco{
+    display: flex;
+    justify-content: center;
+    border-radius: 2%;
+    max-width: 100%;
+}
+footer{
     text-align: center;
 }
-
-
