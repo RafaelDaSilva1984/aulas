@@ -1,3 +1,6 @@
+@media only screen and (max-device-width: 900px) {
+    .imagens .marco { width:600px; }
+    }
 *{
     margin: 2;
     padding: 0;
@@ -61,7 +64,7 @@ p{
     justify-content: center;
     width: 35rem;
     height: 30rem;
-    margin-left: 25rem;
+    margin:auto;
     border-radius: 2%;
     max-width: 100%;
 }
@@ -69,7 +72,16 @@ p{
     display: flex;
     justify-content: center;
     border-radius: 2%;
+    width: 80%;
+    height: auto;
+    margin:auto;
+}
+.amoRecife{
+    display: flex;
+    justify-content: center;
+    border-radius: 2%;
     max-width: 100%;
+    margin:left;
 }
 footer{
     text-align: center;
